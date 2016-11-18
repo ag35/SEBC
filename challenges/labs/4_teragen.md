@@ -89,6 +89,13 @@ real    2m27.182s
 user    0m6.185s
 sys     0m0.732s
 
+[hdfs@ip-172-31-56-113 ~]$ hdfs dfs -ls /user/bavaria/tgen512m
+Found 3 items
+-rw-r--r--   3 bavaria supergroup          0 2016-11-18 15:15 /user/bavaria/tgen512m/_SUCCESS
+-rw-r--r--   3 bavaria supergroup 2560000000 2016-11-18 15:15 /user/bavaria/tgen512m/part-m-00000
+-rw-r--r--   3 bavaria supergroup 2560000000 2016-11-18 15:15 /user/bavaria/tgen512m/part-m-00001
+
+
 51200000 rows * 100 bytes =5120000000 bytes / 16777216 bytes (16mb) = around 305 blocks
 
 
